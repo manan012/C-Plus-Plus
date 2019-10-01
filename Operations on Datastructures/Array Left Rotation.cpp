@@ -35,5 +35,5 @@ int main()
 		cout << a[j] << " ";
 	}
 	getchar();
-	return 0;
+	return 1;
 }
