@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	int n;
-	cout << "\nEnter the length of your array : ";
+	cout << "\nEnter the size of your array : ";
 	cin >> n;
 	int Array[n];
 	cout << "\nEnter any " << n << " Numbers for Unsorted Array : ";
@@ -25,7 +25,7 @@ int main()
 		while (j >= 0 && temp < Array[j])
 		{
 			Array[j + 1] = Array[j];
-			j--;
+			j=j-1;
 		}
 		Array[j + 1] = temp;
 	}
