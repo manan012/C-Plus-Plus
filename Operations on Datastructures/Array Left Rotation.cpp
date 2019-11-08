@@ -29,11 +29,11 @@ int main()
 			}
 		}
 	}
-	cout << "Your rotated array is=\t";
+	cout << "Your rotated array is=\t"; /*finding n*/
 	for (int j = 0; j < n; j++)
 	{
 		cout << a[j] << " ";
 	}
-	getchar();
-	return 0;
+	getchar(); /* */
+	return 1;
 }
