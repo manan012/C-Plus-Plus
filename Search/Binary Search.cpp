@@ -5,7 +5,7 @@ int binary_search(int a[], int l, int r, int key)
 	while (l <= r)
 	{
 		int m = l + (r - l) / 2;
-		if (key == a[m])
+		if (key == a[m])           /*checking the value*/
 			return m;
 		else if (key < a[m])
 			r = m - 1;
@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 	int a[n];
 	for (int i = 0; i < n; ++i)
 	{
-		cin >> a[i];
+		cin >> a[i];           /* entering value in array*/
 	}
 	cout << "Enter search key: ";
 	cin >> key;
